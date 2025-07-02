@@ -1,0 +1,12 @@
+names:
+- chart
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: my-first-project-vaqgs
+  url: https://universe.roboflow.com/mudditha/my-first-project-vaqgs/dataset/1
+  version: 1
+  workspace: mudditha
+test: ../test/images
+train: My-First-Project-1/train/images
+val: My-First-Project-1/valid/images

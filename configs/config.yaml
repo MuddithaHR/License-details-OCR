@@ -1,0 +1,13 @@
+# configs/config.yaml
+
+yolo_model:
+  weights_path: "models/finetuned_yolo/best.pt"    #path for finetuned yolov5s weights
+  conf_threshold: 0.85   # Confidence threshold for detection
+
+constraints: 
+  vehicle_categories_for_check: ['A1','A','B1','B','C1','CE','C','D1','DE','D','G1','G','J']
+  vehicle_categories_for_sort: ['A1','A','B1','B','C1','C','CE','D1','D','DE','G1','G','J']
+  ocr_text_threshold: 0.3
+
+output:
+  save_dir: "outputs/"
