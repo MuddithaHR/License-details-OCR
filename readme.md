@@ -19,7 +19,7 @@ A program to OCR an image of the driving license and extract vehicle categories 
 
 ## 🚀 Program Setup 
 
-Using python 3.8 version is recommended as newer versions may not be compatible with paddleocr library (I used 3.8.10)
+Using python 3.8 version is recommended as newer versions may not be compatible with paddleocr library (I used 3.8.10). Create a conda environment and
 
 ### - Install requirements.txt ###
 ```bash
